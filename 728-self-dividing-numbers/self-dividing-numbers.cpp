@@ -20,9 +20,6 @@ public:
     vector<int> selfDividingNumbers(int left, int right) {
         vector<int> ans = {};
         for (int i = left; i<=right; i++){
-            // if(i>=1 && i<=9){
-            //     ans.push_back(i);
-            // }
             if(i % 10 == 0 && i >= 10){
                 continue;
             }
